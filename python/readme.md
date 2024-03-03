@@ -1,0 +1,1 @@
+model.py 模型文件 model_trans 模型转换文件，包含pytorch转onnx onnx转tensorrt model_infer 模型推理文件，使用cpu推理、gpu推理、ort推理、trt推理
