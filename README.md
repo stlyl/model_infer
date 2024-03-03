@@ -17,7 +17,7 @@
 ```shell
 git clone https://github.com/stlyl/model_infer.git
 cd model_infer
-# 修改CMakeLists.txt--17
+# 修改CMakeLists.txt--17,改为你的ort路径
 set(ONNXRUNTIME_ROOT_PATH /mnt/d/linux_project/your_onnxruntime_path/)
 mkdir build
 cd build

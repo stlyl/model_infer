@@ -1,3 +1,5 @@
+#ifndef _ORT_INFER_H_
+#define _ORT_INFER_H_
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <string>
@@ -41,3 +43,4 @@ private:
 	Mat resize_image(Mat srcimg, int *newh, int *neww, int *top, int *left);
 	void normalize_(Mat img);
 };
+#endif
